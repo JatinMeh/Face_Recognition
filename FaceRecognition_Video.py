@@ -30,7 +30,7 @@ while True:
     for (x, y, w, h) in faces_rect:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), thickness=2)
 
-    cv2.imshow("orange", frame)
+    cv2.imshow("Face Recognition", frame)
 
     key = cv2.waitKey(1)
     if key == ord("q"):
